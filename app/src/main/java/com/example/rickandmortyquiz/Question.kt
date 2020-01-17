@@ -1,4 +1,4 @@
 package com.example.rickandmortyquiz
 
-class Question {
+data class Question (val resourceID: Int, val answer: Boolean) {
 }
